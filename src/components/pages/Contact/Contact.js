@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
     return (
         <div className='container row vh-100'>
-            <h1>Contact Me</h1>
+            <h1 className=' d-flex justify-content-center'>Contact Me</h1>
             <form>
                 <div className="form-group col-4">
                     <label for="exampleFormControlSelect1">Name</label>
@@ -17,7 +17,7 @@ export default function Contact() {
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                <button type="submit" className="btn btn-primary mb-2">Submit</button>
             </form>
         </div>
     )

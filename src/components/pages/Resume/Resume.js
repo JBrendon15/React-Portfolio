@@ -3,7 +3,7 @@ import React from 'react';
 export default function Resume() {
     return (
         <div className='vh-100'>
-            <h1>Resume</h1>
+            <h1 className=' d-flex justify-content-center'>Resume</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                 velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

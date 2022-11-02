@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import AboutMe from './pages/AboutMe';
+import AboutMe from './pages/AboutMe/AboutMe';
 import Header from './Header'
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Portfolio from './pages//Portfolio/Portfolio';
+import Contact from './pages/Contact/Contact';
+import Resume from './pages/Resume/Resume';
 import Footer from './Footer';
 
 export default function BodyContainer() {
@@ -25,10 +25,10 @@ export default function BodyContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className='bg-secondary h-100 w-100 container-fluid'>
+        <div className='bg-secondary container-fluid'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-            <Footer />
             {renderPage()}
+            <Footer />
         </div>
     )
 }

@@ -1,0 +1,16 @@
+#refactor {
+  background-image: url('../../../assets/images/coderefactor.png');
+  background-size: cover;
+  margin: auto;
+}
+#exploreArt {
+  background-image: url('../../../assets/images/explore_art.png');
+  background-size: cover;
+  margin: auto;
+}
+#potato {
+  background-image: url('../../../assets/images/couch_potato.png');
+  background-size: cover;
+  margin: auto;
+}
+

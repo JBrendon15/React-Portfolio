@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
     return (
         <div className='vh-100'>
-            <h1>About Me</h1>
+            <h1 className=' d-flex justify-content-center'>About Me</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                 velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
