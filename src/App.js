@@ -4,7 +4,7 @@ import BodyContainer from './components/BodyContainer';
 
 function App() {
   return (
-    <div className='vh-100'>
+    <div>
       <BodyContainer />
     </div>
   );

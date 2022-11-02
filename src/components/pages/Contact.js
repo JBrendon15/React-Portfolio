@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <div className='container row'>
+        <div className='container row vh-100'>
             <h1>Contact Me</h1>
             <form>
                 <div className="form-group col-4">
