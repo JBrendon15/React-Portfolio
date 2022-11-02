@@ -2,20 +2,23 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <div>
+        <div className='container row'>
             <h1>Contact Me</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-                velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-                ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-                non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-                ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-                rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-                tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-                porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-                vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus.
-            </p>
+            <form>
+                <div className="form-group col-4">
+                    <label for="exampleFormControlSelect1">Name</label>
+                    <input className='form-control'/>
+                </div>
+                <div className="form-group col-4">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+                </div>
+                <div className="form-group col-4">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
         </div>
     )
 }
