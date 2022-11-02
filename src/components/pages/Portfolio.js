@@ -1,21 +1,30 @@
 import React from 'react';
+import refactor from '../../assets/images/coderefactor.png';
+import couch from '../../assets/images/couch_potato.png';
+import explore from '../../assets/images/explore_art.png';
 
 export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-                velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-                ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-                non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-                ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-                rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-                tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-                porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-                vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus.
-            </p>
+            <div className="card bg-dark text-white row">
+                <img src={refactor} class="card-img" alt="Code_Refactor" />
+                    <div className="card-img-overlay">
+                        <h5 className="card-title">Code Refactor</h5>
+                    </div>
+            </div>
+            <div className="card bg-dark text-white row">
+                <img src={explore} class="card-img" alt="Explore Art Chicago" />
+                    <div className="card-img-overlay">
+                        <h5 className="card-title">Explore Art Chicago</h5>
+                    </div>
+            </div>
+            <div className="card bg-dark text-white row">
+                <img src={couch} class="card-img" alt="Couch Potato" />
+                    <div className="card-img-overlay">
+                        <h5 className="card-title">Couch Potato</h5>
+                    </div>
+            </div>
         </div>
     )
 }
