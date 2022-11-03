@@ -15,16 +15,7 @@ export default function AboutMe() {
             <img src={profile} alt="profile_picture" style={styles.img} />
             <div className='container-fluid col-6'>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-                    velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-                    ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-                    non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-                    ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-                    rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-                    tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-                    porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-                    vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-                    fames ac ante ipsum primis in faucibus.
+                    My name is Brendon and I am aiming to become a Full-Stack Developer. I am currently in the Northwestern Coding Bootcamp. After I finish the bootcamp, I want to acquire more knowledge on coding and find a career that I will enjoy in the tech industry.  
                 </p>
             </div>
         </div>
