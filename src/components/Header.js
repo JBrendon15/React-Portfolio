@@ -5,7 +5,7 @@ function Header({ currentPage, handlePageChange }) {
     return (
         <div className='jumbotron jumbotron-fluid row text-white'>
             <div className='container row d-flex'>
-                <h1 className='display-4 col-lg-4'>JBrendon15</h1>
+                <h1 className='col-lg-4'>JBrendon15</h1>
                 <nav className='navbar navbar-expand-lg col-lg-6 justify-content-center'>
                     <a className='navbar-brand text-white text-decoration-none' href='#about-me' onClick={() => handlePageChange('about-me')}>About Me</a>
                     <a className='navbar-brand text-white text-decoration-none' href='#portfolio' onClick={() => handlePageChange('portfolio')}>Portfolio</a>
