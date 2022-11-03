@@ -1,10 +1,18 @@
 import React from 'react';
 import profile from '../../../assets/images/profile.png'
+
+const styles = {
+    img: {
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+    }
+}
 export default function AboutMe() {
     return (
         <div className='vh-100 text-white'>
-            <h1>About Me</h1>
-            <img className='d-flex justify-content-center' src={profile} alt="profile_picture"/>
+            <h1 className='d-flex justify-content-center'>About Me</h1>
+            <img src={profile} alt="profile_picture" style={styles.img}/>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                 velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
