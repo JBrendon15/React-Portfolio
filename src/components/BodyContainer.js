@@ -6,7 +6,6 @@ import Contact from './pages/Contact/Contact';
 import Resume from './pages/Resume/Resume';
 import Footer from './Footer';
 import '../index.css'
-import backgroundImage from '../assets/images/body_background.jpg'
 
 
 export default function BodyContainer() {
@@ -28,7 +27,7 @@ export default function BodyContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className='container-fluid' id='body_container'>
+        <div className='container-fluid row d-flex' id='body_container'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
             <Footer />
