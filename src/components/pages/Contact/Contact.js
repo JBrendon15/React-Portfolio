@@ -48,7 +48,7 @@ function Contact() {
             <form>
                 <div className="form-group col-4">
                     <label for="exampleFormControlSelect1">Name</label>
-                    <input type='text' name='inputName' value={inputName} onChange={handleInputChange} className='form-control' />
+                    <input type='text' name='inputName' value={inputName} onChange={handleInputChange} className='form-control' placeholder='John Smith'/>
                 </div>
                 <div className="form-group col-4">
                     <label for="exampleFormControlInput1">Email address</label>
@@ -56,7 +56,7 @@ function Contact() {
                 </div>
                 <div className="form-group col-4">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea className="form-control" value={message} name='message' onChange={handleInputChange} id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <textarea className="form-control" value={message} name='message' onChange={handleInputChange} id="exampleFormControlTextarea1" rows="5" placeholder='Message here.'></textarea>
                 </div>
                 <button type="submit" onClick={handleFormSubmit} className="btn btn-primary mb-2">Submit</button>
                 <p>{errorMessage}</p>
