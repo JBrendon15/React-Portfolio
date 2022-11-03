@@ -15,7 +15,7 @@ const styles = {
 
 function Portfolio() {
     return (
-        <div className='vh-100 container row'>
+        <div className='vh-100 container row text-white'>
             <h1 className='col-12 d-flex justify-content-center'>Portfolio</h1>
             <div className="card bg-dark text-white col-5" style={styles.card} id='refactor'>
                 <h5 className="card-title vh-100 d-flex justify-content-center"> <a href='https://jbrendon15.github.io/Code-Refactor-Challenge-1/' target={'_blank'} className='navbar-brand text-decoration-none'>Code Refactor</a><a href='https://github.com/JBrendon15/Code-Refactor-Challenge-1' target={'_blank'} className='navbar-brand text-decoration-none'><Icon.Github /></a></h5>

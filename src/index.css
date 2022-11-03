@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.jumbotron {
+  background-color: #003844;
+}
+
+/* #body_container {
+  background: url('./assets/images/body_background.jpg') no-repeat;
+  background-size: cover;
+} */
+
+#body_container {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./assets/images/body_background.jpg');
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+footer {
+  background-color: #003844;
+}

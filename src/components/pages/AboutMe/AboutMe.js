@@ -1,9 +1,10 @@
 import React from 'react';
-
+import profile from '../../../assets/images/profile.png'
 export default function AboutMe() {
     return (
-        <div className='vh-100'>
-            <h1 className=' d-flex justify-content-center'>About Me</h1>
+        <div className='vh-100 text-white'>
+            <h1>About Me</h1>
+            <img className='d-flex justify-content-center' src={profile} alt="profile_picture"/>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                 velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

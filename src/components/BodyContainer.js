@@ -5,6 +5,9 @@ import Portfolio from './pages//Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
 import Resume from './pages/Resume/Resume';
 import Footer from './Footer';
+import '../index.css'
+import backgroundImage from '../assets/images/body_background.jpg'
+
 
 export default function BodyContainer() {
     const [currentPage, setCurrentPage] = useState('about-me');
@@ -25,7 +28,7 @@ export default function BodyContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className='bg-secondary container-fluid'>
+        <div className='container-fluid' id='body_container'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
             <Footer />
