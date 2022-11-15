@@ -3,9 +3,9 @@ import * as Icon from 'react-bootstrap-icons';
 import potato from '../../../assets/images/couch_potato.png';
 import art from '../../../assets/images/explore_art.png';
 import weather from '../../../assets/images/weather_dashboard.png';
-import quiz from '../../../assets/images/quiz.png';
 import scheduler from '../../../assets/images/scheduler.png';
 import notes from '../../../assets/images/notes.png';
+import glimpse from '../../../assets/images/glimpse.png';
 
 
 function Portfolio() {
@@ -21,7 +21,7 @@ function Portfolio() {
                 </div>
                 <div className="card-body">
                     <a href="https://infinite-river-93616.herokuapp.com/" target={'_blank'} className="card-link navbar-brand text-decoration-none">Couch Potato</a>
-                    <a href="https://github.com/mbronstein1/Couch-Potato" target={'_blank'} className="card-link navbar-brand text-decoration-none"><Icon.Github /></a>
+                    <a href="https://github.com/JBrendon15/Couch-Potato" target={'_blank'} className="card-link navbar-brand text-decoration-none"><Icon.Github /></a>
                 </div>
             </div>
             <div className="card col-lg-3 col-md-5 col-sm-12 text-dark m-2">
@@ -37,6 +37,18 @@ function Portfolio() {
                 </div>
             </div>
             <div className="card col-lg-3 col-md-5 col-sm-12 text-dark m-2">
+                <img src={glimpse} className="card-img-top" alt="coding_quiz" />
+                <div className="card-body">
+                    <h4 className="card-title">Glimpse</h4>
+                    <h6 className="card-text">React/Bootstrap/Apollo/GraphQL/MongoDB/Websocket</h6>
+                    <p className="card-text">Easy to use chat application. Signup and start chatting!</p>
+                </div>
+                <div className="card-body">
+                    <a href="https://glimpse-chat.herokuapp.com/" target={'_blank'} className="card-link navbar-brand text-decoration-none">Glimpse</a>
+                    <a href="https://github.com/Shengaero/glimpse" target={'_blank'} className="card-link navbar-brand text-decoration-none"><Icon.Github /></a>
+                </div>
+            </div>
+            <div className="card col-lg-3 col-md-5 col-sm-12 text-dark m-2">
                 <img src={weather} className="card-img-top" alt="weather_dashboard" />
                 <div className="card-body">
                     <h4 className="card-title">Weather Dashboard</h4>
@@ -46,18 +58,6 @@ function Portfolio() {
                 <div className="card-body">
                     <a href="https://jbrendon15.github.io/Weather-Dashboard/" target={'_blank'} className="card-link navbar-brand text-decoration-none">Weather Dashboard</a>
                     <a href="https://github.com/JBrendon15/Weather-Dashboard" target={'_blank'} className="card-link navbar-brand text-decoration-none"><Icon.Github /></a>
-                </div>
-            </div>
-            <div className="card col-lg-3 col-md-5 col-sm-12 text-dark m-2">
-                <img src={quiz} className="card-img-top" alt="coding_quiz" />
-                <div className="card-body">
-                    <h4 className="card-title">Coding Quiz</h4>
-                    <h6 className="card-text">DOM/LocalStorage</h6>
-                    <p className="card-text">Take a Quick Coding Quiz</p>
-                </div>
-                <div className="card-body">
-                    <a href="https://jbrendon15.github.io/Coding-Quiz/" target={'_blank'} className="card-link navbar-brand text-decoration-none">Coding Quiz</a>
-                    <a href="https://github.com/JBrendon15/Coding-Quiz" target={'_blank'} className="card-link navbar-brand text-decoration-none"><Icon.Github /></a>
                 </div>
             </div>
             <div className="card col-lg-3 col-md-5 col-sm-12 text-dark m-2">
