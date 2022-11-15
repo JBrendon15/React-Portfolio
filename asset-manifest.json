@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.34a3cdfa.css",
-    "main.js": "/React-Portfolio/static/js/main.bf4ef150.js",
+    "main.js": "/React-Portfolio/static/js/main.7d3b3fd7.js",
     "static/media/body_background.jpg": "/React-Portfolio/static/media/body_background.8eb2a5f47080307bed67.jpg",
     "static/media/explore_art.png": "/React-Portfolio/static/media/explore_art.2656ec2f056e61e0a542.png",
     "static/media/couch_potato.png": "/React-Portfolio/static/media/couch_potato.b8bec8b7e10dd539dda1.png",
     "static/media/weather_dashboard.png": "/React-Portfolio/static/media/weather_dashboard.691ba9be851af256927d.png",
     "static/media/profile.png": "/React-Portfolio/static/media/profile.c26dade131b8b569f1dd.png",
-    "static/media/quiz.png": "/React-Portfolio/static/media/quiz.691f83013d3a208729fb.png",
     "static/media/scheduler.png": "/React-Portfolio/static/media/scheduler.46b5206d2862305c051b.png",
+    "static/media/glimpse.png": "/React-Portfolio/static/media/glimpse.dafa0a8cbc5c5288fcc0.png",
     "static/media/notes.png": "/React-Portfolio/static/media/notes.d97ed6edb7eb1635ba6b.png",
     "index.html": "/React-Portfolio/index.html",
     "main.34a3cdfa.css.map": "/React-Portfolio/static/css/main.34a3cdfa.css.map",
-    "main.bf4ef150.js.map": "/React-Portfolio/static/js/main.bf4ef150.js.map"
+    "main.7d3b3fd7.js.map": "/React-Portfolio/static/js/main.7d3b3fd7.js.map"
   },
   "entrypoints": [
     "static/css/main.34a3cdfa.css",
-    "static/js/main.bf4ef150.js"
+    "static/js/main.7d3b3fd7.js"
   ]
 }
